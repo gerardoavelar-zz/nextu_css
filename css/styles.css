@@ -1,0 +1,75 @@
+body {
+  font-family: "Dancing Script";
+  background-color: black;
+}
+
+img {
+    box-shadow: 2px 2px #02010a;
+}
+
+header {
+  background-color: #5b7989;
+}
+
+@media screen and (max-width: 900px) {
+
+.content {
+  width: 100%;
+  align-content: center;
+}
+
+header {
+  border-radius: 10px;
+  color: white;
+}
+
+#title {
+  padding-left: 10px;
+  text-shadow: 2px 2px #02010a;
+}
+
+#menu {
+  text-align: right;
+}
+
+#menu a {
+  padding-right: 15px;
+}
+
+#menu a:active {
+  text-decoration: none;
+}
+
+#main-image {
+  background-color: #82c3a6;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#main-image img {
+  width: 87%;
+}
+
+.sec-content {
+  display: flex;
+  flex-flow: wrap;
+  background-color: #d5c75f;
+  border-width: 1px;
+  text-align: center;
+}
+
+.sec-content img {
+  width: 100%;
+}
+
+#img2 {
+  transition: box-shadow 2s, border 2s;
+}
+
+#img2:hover {
+  box-shadow: #FFFFFF;
+  border: 100px;
+}
+
+}
