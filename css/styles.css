@@ -1,0 +1,200 @@
+body {
+  font-family: "Dancing Script";
+  background-color: black;
+}
+
+header {
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+#title {
+  padding-left: 10px;
+  text-shadow: 2px 2px #02010a;
+}
+
+#menu {
+  text-align: right;
+}
+
+#menu a {
+  padding-right: 15px;
+}
+
+#menu a:active {
+  text-decoration: none;
+}
+
+#main-image {
+  background-color: #82c3a6;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#main-image img {
+  width: 87%;
+  box-shadow: 2px 2px #02010a;
+}
+
+#img2 {
+  -webkit-transition: box-shadow 2s, border 2s, transform 3s;
+  -moz-transition: box-shadow 2s, border 2s, transform 3s;
+  -o-transition: box-shadow 2s, border 2s, transform 3s;
+  transition: box-shadow 2s, border 2s, transform 3s;
+}
+
+#img2:hover {
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid black;
+  transform: rotate(10deg);
+}
+
+#img3 {
+  -webkit-transition: transform 2s, box-shadow 2s, border 2s;
+  -moz-transition: transform 2s, box-shadow 2s, border 2s;
+  -o-transition: transform 2s, box-shadow 2s, border 2s;
+  transition: transform 2s, box-shadow 2s, border 2s;
+}
+
+#img3:hover {
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid black;
+  transform: translateX(20px)
+             translateY(-5px);
+}
+
+#gallery {
+  background-color: #d5c75f;
+}
+
+.B img {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.GS img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.S img {
+  -webkit-filter: sepia(90%);
+  -moz-filter: sepia(90%);
+  -o-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+footer {
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.social {
+  width: 2.7%
+}
+
+@media screen and (max-width: 900px) {
+
+.content {
+  width: 100%;
+  align-content: center;
+}
+
+
+
+#sec-content {
+  display: flex;
+  flex-flow: wrap;
+  background-color: #d5c75f;
+  border-width: 1px;
+  text-align: center;
+}
+
+#sec-content img {
+  width: 100%;
+  box-shadow: 2px 2px #02010a;
+}
+
+#gallery {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+#gallery img {
+  width: 87%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+footer {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+}
+
+@media screen and (min-width: 900px) {
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+#sec-content {
+
+  background-color: #d5c75f;
+  border-width: 1px;
+}
+
+.sub-menu {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.sub-menu a {
+  width: 40%
+}
+
+.sub-menu a img {
+  width: 95%
+}
+
+ .images {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.images div {
+  width: 33.3%;
+}
+
+.images div img {
+  width: 95%;
+  border: 2px solid black;
+}
+
+#gallery #row img {
+  width: 95%;
+
+}
+
+footer {
+  display: flex;
+  flex-flow: row;
+}
+
+}
